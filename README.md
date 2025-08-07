@@ -6,7 +6,7 @@ The **Cloud Resume Challenge** is a hands-on, end-to-end cloud engineering proje
 
 ## 🌐 Live Demo
 
-🖥️ [View the Live Resume](https://d2da082ezlvl69.cloudfront.net)
+🖥️ [View the Live Resume](https://d2y4xht9u918d1.cloudfront.net/)
 
 ---
 
