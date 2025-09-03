@@ -288,18 +288,5 @@
             <p>&copy; 2025 Bharathiselvan Rajendran. Built for the Cloud Resume Challenge.</p>
         </div>
     </footer>
-
-    <script>
-        // Mobile navigation toggle
-        
-        window.onload = function() {
-            let value =  fetch("https://tn3ry1afia.execute-api.us-east-2.amazonaws.com/v1/count",{
-            method : "GET",
-            mode : "cors",
-        }).then(response=>response.json())
-        .then(data=>{ document.getElementById('visitorCount').textContent = data; console.log(data); console.log(data);})
-    };
-               
-    </script>
 </body>
 </html>
