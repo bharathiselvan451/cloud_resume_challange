@@ -3,217 +3,303 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href='stylesheet.css' rel='stylesheet'>
+    <title>Bharathiselvan Rajendran | Cloud & Security Engineer</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z764HB5HC9"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="full-name">
-                <span class="first-name">Bharathiselvan</span>
-                <span class="last-name">Rajendran</span>
+    <!-- Visitor Counter at the Top -->
+    <div class="visitor-counter-top">
+        <div class="container">
+            <p><i class="fas fa-eye"></i> Visitors: <span id="visitorCount">0</span></p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Hey this website runs on AWS</span>
             </div>
-            <div class="contact-info">
-                <span class="email">Email:</span>
-                <span class="email-val">bharathiselvan451@gmail.com</span>
-                <span class="separator"></span>
-                <span class="phone">Phone:</span>
-                <span class="phone-val">825-747-3439</span>
-                <span class="separator"></span>
-                <span class="phone">Github:</span>
-                <span class="phone-val"><a>https://github.com/bharathiselvan451</a></span>
-            </div>
-    
-            <div class="about">
-    
-                <span class="desc">
-                    I recently graduated from Concordia University's Information Systems Security program, specializing in
-                    cybersecurity. My primary interest lies in the cloud domain, and as a first step toward this career
-                    path, I earned the AWS Certified Solutions Architect - Associate (SAA-C03) certification in December. I
-                    am eager to join an organization where I can contribute my skills while continuously expanding my
-                    knowledge and expertise<strong class="change" id="replace"></strong>
-                </span>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-        <div class="details">
-            <div class="section">
-                <div class="section__title">Internship</div>
-                <div class="section__list">
-                    <div class="section__list-item">
-                        <div class="left">
-                            <div class="name">Cognizant</div>
-                            <div class="addr">Coimbatore, TamilNadu, India</div>
-                            <div class="duration">Feb 2023 - May 2023</div>
-                        </div>
-                        <div class="right">
-                            <div class="name">Rest api developer</div>
-                            <div class="desc">Deveopment training on apis using spring boot and hibernate</div>
-                        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Bharathiselvan  <span class="highlight">Rajendran</span></h1>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                     </div>
-    
-    
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Recent Information Security graduate with a passion for cloud engineering and security. Certified in AWS with hands-on experience building automated solutions and implementing security best practices.</p>
+                        <p>I enjoy exploring emerging technologies and creating innovative solutions that combine cloud infrastructure with robust security measures.</p>
+                    </div>
                 </div>
             </div>
-            <div class="section">
-                <div class="section__title">Education</div>
-                <div class="section__list">
-                    <div class="section__list-item">
-                        <div class="left">
-                            <div class="name">Concordia University</div>
-                            <div class="addr">Montreal, QC</div>
-                            <div class="duration">Jan 2024 - Sep 2024(tentative)</div>
-                        </div>
-                        <div class="right">
-                            <div class="name">Anna University</div>
-                            <div class="addr">TamilNadu, India</div>
-                            <div class="duration">Jan 2019 - Mar 2023</div>
-                        </div>
-    
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Intern, Cognizant</h3>
+                        <span class="experience-date">2023</span>
                     </div>
-    
-                </div>
-    
-            </div>
-            <div class="section">
-                <div class="section__title">Projects</div>
-                <div class="section__list">
-                    <div class="section__list-item">
-                        <div class="name">EMBAapi</div>
-                        <div class="text">Web tool to analyze EMBA analyzer logs with terraform to deploy the infrastructure in AWS. Services used - S3,lambda,cognito github: <a>https://github.com/bharathiselvan451/EMBAapi</a>
-                        </div>
-                    </div>
-                    <div class="section__list-item">
-                        <div class="name">Personal expense tracker</div>
-                        <div class="text">This application helps customers keep track of their monthly expenses.
-                            It is containerized using docker and is deployed in the Google app engine
-                            Used Python to develop the backend
-                            Tech stack - Flask, db2, SQLAlchemy, github: <a>https://github.com/bharathiselvan451/flaskproject</a></div>
-                    </div>
-    
-                    <div class="section__list-item">
-                        <div class="name">Personal expense tracker V2.0</div>
-                        <div class="text">Improved from the previous iteration by using microservice architecture.
-                            The application is split into three parts a webserver which brings the data to the user and two
-                            services managing the databases.
-                            Users can visualize daily as well as monthly expenses
-                            Tech stack - spring-boot, hibernate, RESTtemplate, github: <a>https://github.com/bharathiselvan451/service_1</a>
-                        </div>
-                    </div>
-                    <div class="section__list-item">
-                        <div class="name">WIFI traffic analyzer</div>
-                        <div class="text">Desktop application to scan the local wifi lan devices and capture their network traffic.
-                            Tech stack - python, scapy, PySide6 github: <a>https://github.com/bharathiselvan451/networkSniffer</a>
-                        </div>
-                    </div>
-    
-                    
+                    <ul class="experience-list">
+                        <li>Integrated GitHub webhooks with Jenkins to automatically trigger build pipelines on pull requests and merges.</li>
+                        <li>Enabled early detection of issues such as exposed secrets, state drifts, and policy non-compliance during the pilot run.</li>
+                        <li>Improved code quality and infrastructure reliability by enforcing automated validation and security checks in the pipeline.</li>
+                    </ul>
                 </div>
             </div>
-            <div class="section">
-                <div class="section__title">Skills</div>
-                <div class="skills">
-                    <div class="skills__item">
-                        <div class="left">
-                            <div class="name">
-                                Vanilla HTML, CSS, Javascript
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>EMBA Log Processor</h3>
+                        <p>Integrated NVD feeds to enhance security log analysis with automated processing workflows.</p>
+                        <div class="project-tech">
+                            <span>AWS Lambda</span>
+                            <span>API Gateway</span>
+                            <span>S3</span>
+                        </div>
+                        <a href="https://github.com/bharathiselvan451/EMBA_log_processor" class="project-link" target="_blank">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Bitwarden Autobackup</h3>
+                        <p>Automated credential backup solution using AWS EventBridge and Lambda functions.</p>
+                        <div class="project-tech">
+                            <span>AWS EC2</span>
+                            <span>EventBridge</span>
+                            <span>Terraform</span>
+                        </div>
+                        <a href="https://github.com/bharathiselvan451/Bitwarden_autobackup_aws" class="project-link" target="_blank">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <h3>Bus Reservation App</h3>
+                        <p>Full-stack application for bus ticket reservations with Spring Boot backend.</p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/bharathiselvan451/Bus-Reservation-app" class="project-link" target="_blank">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cloud"></i> Cloud</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS IAM</span>
+                            <span class="skill-tag">S3</span>
+                            <span class="skill-tag">Lambda</span>
+                            <span class="skill-tag">API Gateway</span>
+                            <span class="skill-tag">EC2</span>
+                            <span class="skill-tag">EventBridge</span>
+                            <span class="skill-tag">DynamoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Automation</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-shield-alt"></i> Security</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Wireshark</span>
+                            <span class="skill-tag">Burp Suite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Master of Engineering Information Systems Security</h3>
+                            <p>Concordia University</p>
+                            <span class="timeline-date">Jan 2024 - June 2025</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Bachelor of Engineering Computer Science</h3>
+                            <p>Anna University</p>
+                            <span class="timeline-date">Aug 2019 - May 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <div class="certification-details">
+                            <h3>AWS Certified Solutions Architect</h3>
+                            <p>SAA-C03</p>
+                            <span class="certification-date">Dec 2024 - Dec 2027</span>
+                        </div>
+                    </div>
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="certification-details">
+                            <h3>Certified in Cybersecurity</h3>
+                            <p>ISC2</p>
+                            <span class="certification-date">Jul 2024 - Jun 2027</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>rajendranbharathiselvan@gmail.com</p>
                             </div>
                         </div>
-                        <div class="right">
-                            <input id="ck1" type="checkbox" checked />
-    
-                            <label for="ck1"></label>
-                            <input id="ck2" type="checkbox" checked />
-    
-                            <label for="ck2"></label>
-                            <input id="ck3" type="checkbox" />
-    
-                            <label for="ck3"></label>
-                            <input id="ck4" type="checkbox" />
-                            <label for="ck4"></label>
-                            <input id="ck5" type="checkbox" />
-                            <label for="ck5"></label>
-    
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>8257473439</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>LinkedIn</h3>
+                                <p><a href="https://www.linkedin.com/in/bharathiselvan-rajendran-19950b315/">Connect with me</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>GitHub</h3>
+                                <p><a href="https://github.com/bharathiselvan451">View my projects</a></p>
+                            </div>
                         </div>
                     </div>
-    
-                </div>
-                <div class="skills__item">
-                    <div class="left">
-                        <div class="name">
-                            Java</div>
-                    </div>
-                    <div class="right">
-                        <input id="ck1" type="checkbox" checked />
-    
-                        <label for="ck1"></label>
-                        <input id="ck2" type="checkbox" checked />
-    
-                        <label for="ck2"></label>
-                        <input id="ck3" type="checkbox" checked/>
-    
-                        <label for="ck3"></label>
-                        <input id="ck4" type="checkbox" />
-                        <label for="ck4"></label>
-                        <input id="ck5" type="checkbox" />
-                        <label for="ck5"></label>
-    
-                    </div>
-                </div>
-                <div class="skills__item">
-                    <div class="left">
-                        <div class="name">
-                            Computer networks</div>
-                    </div>
-                    <div class="right">
-                        <input id="ck1" type="checkbox" checked />
-    
-                        <label for="ck1"></label>
-                        <input id="ck2" type="checkbox" checked />
-    
-                        <label for="ck2"></label>
-                        <input id="ck3" type="checkbox" checked/>
-    
-                        <label for="ck3"></label>
-                        <input id="ck4" type="checkbox" />
-                        <label for="ck4"></label>
-                        <input id="ck5" type="checkbox" />
-                        <label for="ck5"></label>
-    
-                    </div>
-                </div>
-                <div class="skills__item">
-                    <div class="left">
-                        <div class="name">
-                            AWS</div>
-                    </div>
-                    <div class="right">
-                        <input id="ck1" type="checkbox" checked />
-        
-                        <label for="ck1"></label>
-                        <input id="ck2" type="checkbox" checked />
-        
-                        <label for="ck2"></label>
-                        <input id="ck3" type="checkbox" checked/>
-        
-                        <label for="ck3"></label>
-                        <input id="ck4" type="checkbox" />
-                        <label for="ck4"></label>
-                        <input id="ck5" type="checkbox" />
-                        <label for="ck5"></label>
-        
-                    </div>
-                </div>
-        
                 </div>
             </div>
-            
-            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bharathiselvan Rajendran. Built for the Cloud Resume Challenge.</p>
         </div>
-    </div>
-    </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        
+        window.onload = function() {
+            let value =  fetch("https://tn3ry1afia.execute-api.us-east-2.amazonaws.com/v1/count",{
+            method : "GET",
+            mode : "cors",
+        }).then(response=>response.json())
+        .then(data=>{ document.getElementById('visitorCount').textContent = data; console.log(data); console.log(data);})
+    };
+               
+    </script>
 </body>
 </html>
-
-
-
